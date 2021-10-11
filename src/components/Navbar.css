@@ -1,0 +1,19 @@
+.nav-links{
+    text-decoration:none ;
+    font-size: 20px;
+    color: #fff;
+    margin: 5px;
+    line-height: 3rem;
+}
+
+.nav-item :hover{
+   background-color: chartreuse;
+}
+
+.navbar{
+    background-color: rgb(17, 16, 16);
+    width: 15rem;
+    height: 100rem;
+    border-radius: 0 20px 20px 0;
+}
+

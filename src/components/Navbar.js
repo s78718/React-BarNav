@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Dropdown } from './Dropdown'
 
-//import { Button } from './Button'
+import { Button } from './Button'
 //import { Dropdown } from './Dropdown'
 
 import './Navbar.css'
@@ -21,7 +21,7 @@ function Navbar(){
         <>
             <nav className='navbar'>
                 <Link to='/' className='navbar-logo'>
-                    link
+                     <h1> <i className='fas fa-atom'/> Meta </h1>
                 </Link>
                 <div className='menu-icon' onClick={ handleClick }>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -37,8 +37,14 @@ function Navbar(){
                             Services <i className='fas fa-caret-down'/>
                         </Link>
                         {dropdown && <Dropdown />}
-                    </li>                
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/contact_us' className='nav-links' onClick={ closeMobileMenu }>
+                            Contact Us 
+                        </Link>
+                    </li>                    
                 </ul>
+                <Button />
             </nav>
         </>
     )

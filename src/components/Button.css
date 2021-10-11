@@ -1,0 +1,15 @@
+.btnup{
+    font-size: x-large;
+    background-color: rgb(55, 138, 221);
+    border-radius: 5px;
+    color: antiquewhite;
+    margin: 5px;    
+}
+
+.btnin{
+    font-size: x-large;
+    background-color: rgb(26, 43, 59);
+    border-radius: 5px;
+    color: antiquewhite;
+    margin: 5px;
+}
